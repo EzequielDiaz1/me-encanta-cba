@@ -17,6 +17,13 @@
     margin-left: 60px;
 }
 
+@media screen and (max-width: 390px){
+    .logo{
+        margin-left: 20px;
+}
+
+}
+
 
 .containerText{
     width: 500px;
@@ -29,6 +36,7 @@
 .text{
     text-decoration: none;
     color: #ed5168;
-    font-family: 'Radio Canada', sans-serif;
-    font-size: 19px
+    font-size: 19px;
+    font-weight: 600 !important;
 }
+

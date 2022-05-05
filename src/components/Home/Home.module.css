@@ -1,6 +1,48 @@
 
 
-.container{
-    background-image: url('../../pattern.png');
-    height:1080px;
+.containerPadre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerCards{
+    border-top: 3px solid #ed5168;
+    border-bottom: 1px solid #ed5168;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+.card{
+    padding: 15px;
+    width: 250px;
+    border: 1px grey solid;
+    max-height: 320px;
+    margin: 40px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: 10px 9px 10px grey;
+}
+
+.text{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 390;
+}
+
+.title{
+   font-weight: 900;
+   font-size: 18px; 
+}
+
+.price{
+    font-weight: 700;
+    font-size: 18px;
 }
