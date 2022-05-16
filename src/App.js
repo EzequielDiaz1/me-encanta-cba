@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Carrousel/>
+      {/* <Carrousel/> */}
       <Home/>
     </div>
   );
