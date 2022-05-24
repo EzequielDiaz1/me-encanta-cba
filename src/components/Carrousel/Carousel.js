@@ -16,6 +16,7 @@ export default function SimpleSlider() {
     autoplay: true,
     autoplaySpeed:3500,
     centerMode:true,
+    fade:true
   };
   return (
 
@@ -28,10 +29,10 @@ export default function SimpleSlider() {
         <img src={fotoChupetes2} alt='nope'/>
       </div>
       <div >
-        <img src={ejemploCard} alt='nope'/>
+        <img src={fotoChupetes} alt='nope'/>
       </div>
       <div >
-        <img src={ejemploCard} alt='nope'/>
+        <img src={fotoChupetes2} alt='nope'/>
       </div>
 
     </Slider>

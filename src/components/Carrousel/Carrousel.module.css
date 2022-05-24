@@ -1,12 +1,12 @@
 .sc img{
     height: 500px;  
-    width: 600px;
+    width: 700px;
     margin: 0 auto; /* it centers any block level element */
     margin-bottom: -4px;
 
 }
 
 .sc{
-    background-image: url('../../recursos/background-black.jpg');
+    
     background-size: contain;
 }

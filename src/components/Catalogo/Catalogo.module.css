@@ -15,9 +15,7 @@
 }
 
 .containerCards{
-    border-top: 1px solid #ed5168;
-    border-bottom: 1px solid #ed5168;
-    width: 90%;
+    max-width: 800px;
     height: 90%;
     display: flex;
     justify-content: space-around;
