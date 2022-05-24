@@ -20,6 +20,7 @@ const Catalogo = () => {
         flexDirection: "column",
         alignItems: "start",
         fontSize: "18px",
+        
       }}
     >
       {categorias.map((categoria, index) => (
